@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <title>Links'n'Images</title>
+  </head>
+  <body>
+  <h1>Homepage</h1>
+  <a href="https://www.theodinproject.com/about">The Odin Project :]</a>
+  <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">This opens in a new tab >w></a>
+  <a href="./pages/about.html">This opens a different page on this website!</a>
+  </body>
+</html>
