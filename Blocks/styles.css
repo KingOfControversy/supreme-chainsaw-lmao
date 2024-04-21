@@ -1,0 +1,11 @@
+.flex-container {
+/*      display:flex; */
+}
+
+/*     selects all divs */
+.flex-container div {
+    background: gray;
+    border: 1px solid black;
+    height: 25px;
+/*     flex: 1; */
+}
