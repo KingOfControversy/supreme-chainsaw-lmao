@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.template {
+    display: flex;
+    background: red;
+    height: 4000px;
+    flex-direction:column;
+}
+
+.template2 {
+    display: flex;
+    background: darkblue;
+    height: 50px;
+}
+
+.template3 {
+    display: flex;
+    background: green;
+    height: 1000px;
+    align-items: center;
+    justify-content: space-around;
+/*     padding: 100px; */
+}
+
+.template5 {
+    display: flex;
+    background: yellow;
+    height: 1000px;
+    align-items: stretch;
+}
+
+.template4 {
+    display: flex;
+    background: darkblue;
+    height: 50px;
+}
+.vertal {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.items1 {
+    display: flex;
+    background: maroon;
+    height: 100px;
+    align-items: stretch;
+}
+
+.items2 {
+    display: flex;
+    background: red;
+    height: 100px;
+    align-items: stretch;
+}
