@@ -1,11 +1,17 @@
-.flex-container {
-/*      display:flex; */
+.container {
+     display:flex;
+     height:100;
+     padding: 8px;
+     background: black;
+     border: 2px solid white;
+     justify-content: flex-start;
+     gap: 64px;
 }
 
-/*     selects all divs */
-.flex-container div {
+.item {
     background: gray;
-    border: 1px solid black;
-    height: 25px;
-/*     flex: 1; */
+    width: 80px;
+    height: 60px;
+    border: 1px solid white;
+    background: gray;
 }
