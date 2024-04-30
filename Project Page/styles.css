@@ -1,56 +1,86 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-.template {
-    display: flex;
-    background: red;
-    height: 4000px;
-    flex-direction:column;
+* {
+/*   margin: 0; */
+/*   padding: 0; */
+  box-sizing: border-box;
+  background-color: #0b0503;
 }
 
-.template2 {
+.menu-container {
+    color: #fff;
+/*     background-color: #5995DA; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: flex;
-    background: darkblue;
-    height: 50px;
+    justify-content: center;
+    font-family: "Anonymous Pro", monospace;
 }
 
-.template3 {
+.menu {
+    display:flex;
+/*     background: #1F2937; */
+    border: 1px solid #fff;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 7%;
+    padding-left: 7%;
+
+}
+.links {
     display: flex;
-    background: green;
-    height: 1000px;
-    align-items: center;
-    justify-content: space-around;
-/*     padding: 100px; */
+/*     background: #1F2937; */
+    border: 1px solid #fff;
+    justify-content: flex-end;
+}
+.Logo {
+    display: flex;
+    border: 1px solid #fff;
+    font-size: 24px;
 }
 
-.template5 {
+.link {
     display: flex;
-    background: yellow;
-    height: 1000px;
-    align-items: stretch;
+    border: 1px solid #fff;
+    justify-content: space-between;
+    width: 75%;
 }
 
-.template4 {
+.main-body-1 {
     display: flex;
-    background: darkblue;
-    height: 50px;
-}
-.vertal {
-    vertical-align: top;
-    display: inline-block;
+    border: 1px solid #fff;
+    width: 100%;
+    margine: 2rem 6rem;
 }
 
-.items1 {
+.main-body-1-text {
     display: flex;
-    background: maroon;
-    height: 100px;
-    align-items: stretch;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3em;
+    width: 60%;
+    overflow: hidden;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    line-height: 1.3;
 }
 
-.items2 {
-    display: flex;
-    background: red;
-    height: 100px;
-    align-items: stretch;
+h1 {
+    color: #f5ede9;
+
 }
+
+body {
+    margin: 0px;
+}
+
+main {
+    margin: 40px
+}
+
+
+/* --text: #f5ede9; */
+/* --background: #0b0503; */
+/* --primary: #e39d83; */
+/* --secondary: #8a3414; */
+/* --accent: #f16834; */
+/* another accent: #fa7736; */
