@@ -55,27 +55,11 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   background: transparent;
-  position: relative;
-  z-index: 1;
-  background: linear-gradient(to top, rgba(129, 188, 243, 0.5), rgba(129, 188, 243, 0));
 }
 
-li a::before {
-/*  background: linear-gradient(to top, rgba(129, 188, 243, 0.5), rgba(129, 188, 243, 0));*/
+li a:hover {
+  background: linear-gradient(to top, rgba(129, 188, 243, .05), rgba(129, 188, 243, 0));
   border-radius: 10px;
-  content: "";
-  position: aboslute;
-  top: 100;
-  left: 0;
-    background: linear-gradient(to top, rgba(129, 188, 243, 0.5), rgba(129, 188, 243, 0));
-    opacity: 0;
-    transition: opacity 0.4s;
-    z-index: -1;
-}
-
-li a:hover::before {
-    opacity: 1;
-    border-radius: 10px;
 }
 
 @keyframes fadeIN {
