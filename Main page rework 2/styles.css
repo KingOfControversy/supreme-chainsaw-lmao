@@ -85,7 +85,8 @@ li a:hover {
     border: 2px solid #eca53c;
 }
 
-.NavBar {
-    position: fixed;
+main {
+    display: flex;
     width: 100%;
+    margin: 3% 5%;
 }
