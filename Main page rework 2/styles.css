@@ -84,3 +84,9 @@ li a:hover {
     border-radius: 25px;
     border: 2px solid #eca53c;
 }
+
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
