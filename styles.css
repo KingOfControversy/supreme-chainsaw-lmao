@@ -96,7 +96,7 @@ small {font-size: 0.707rem; /* 11.36px */}
 
 #scorner {
     border-radius: 25px;
-    border: 2px solid #eca53c;
+    border: 2px solid #eca53c;/*Debug Border*/
 }
 
 main {
@@ -108,7 +108,7 @@ main {
 .Bigtitle {
     font-size: 50px;
     color: white;
-    border: 1px solid white;
+/*     border: 1px solid white;/*Debug Border*/ */
     width: 100%;
     padding: 10%;
 
@@ -116,23 +116,33 @@ main {
 
 .primary-div {
     display: flex;
+    flex-direction: column;
 }
 
 .section1 {
-    background: linear-gradient(38deg, rgba(2,0,36,1) 0%, rgba(2,49,86,1) 25%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 10%, rgba(2,49,86,1) 35%, rgba(0,212,255,1) 100%);
     width: 100%;
     min-height: 500px;
     top: 0;
-    border: 1px solid white;
+/*     border: 1px solid white; *//*Debug Border*/
     text-align: center;
-    margin: 2rem 6rem;
+/*     margin: 2rem 6rem; */
     flex-direction: row;
     justify-content: space-between;
 }
 
 
 .section2 {
-
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(0, 0, 0) 100%);
+    width: 100%;
+    min-height: 500px;
+    top: 0;
+/*     border: 1px solid white;/*Debug Border*/ */
+    text-align: center;
+/*     margin: 2rem 6rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .section3 {
