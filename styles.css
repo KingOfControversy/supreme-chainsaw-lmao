@@ -184,3 +184,7 @@ html {
 --accent: #eca53c;
 --font-scale: 1.333;
 }
+
+.roundedimage {
+    border-radius: 10px;
+}
