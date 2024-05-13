@@ -4,8 +4,8 @@ body {
   font-family: 'Kode Mono';
   font-weight: 400;
   background: #00070f;
-  display: flex;
-  flex-direction: column;
+/*   display: flex; */
+/*   flex-direction: column; */
   align-items: center;
   overflow-x: hidden;
   position: relative;
@@ -49,6 +49,13 @@ small {font-size: 0.707rem; /* 11.36px */}
 /*     border: 2px solid transparent; */
 /*     border-image: linear-gradient(to bottom right, #81bcf3, #540292); */
 /*     border-image-slice: 1; */
+
+
+.navbartempfix {
+    display:flex;
+    flex-direction: column;
+}
+
 }
 
 .navlink {
@@ -154,6 +161,10 @@ select, textarea, input, button {
 
 html {
   font-size: 100%;
+}
+
+.rows {
+    flex-direction: column;
 }
 
 .--text {
