@@ -8,7 +8,9 @@
 --accent: #eca53c;
 --font-scale: 1.333;
 }
-
+nav {
+    z-index: 12;
+}
 body {
   font-family: 'Kode Mono';
   font-weight: 400;
@@ -42,6 +44,7 @@ p {
 h1, h2, h3, h4, h5 {
   font-family: 'Source Code Pro';
   font-weight: 700;
+  color: var(--text)
 }
 
 html {font-size: 100%;} /* 16px */
@@ -169,21 +172,21 @@ main {
     background: linear-gradient(
   180deg,
   hsl(0deg 0% 0%) 5%,
-  hsl(344deg 0% 3%) 21%,
-  hsl(344deg 0% 6%) 32%,
-  hsl(344deg 0% 8%) 40%,
-  hsl(344deg 0% 10%) 48%,
-  hsl(344deg 0% 12%) 55%,
-  hsl(344deg 0% 14%) 62%,
-  hsl(344deg 0% 16%) 68%,
-  hsl(344deg 0% 18%) 74%,
-  hsl(344deg 0% 20%) 80%,
-  hsl(344deg 0% 22%) 85%,
-  hsl(344deg 0% 24%) 89%,
-  hsl(344deg 0% 26%) 93%,
-  hsl(344deg 0% 28%) 96%,
-  hsl(344deg 0% 30%) 99%,
-  hsl(0deg 0% 32%) 100%
+  hsl(232deg 100% 2%) 21%,
+  hsl(230deg 100% 2%) 32%,
+  hsl(228deg 100% 2%) 40%,
+  hsl(227deg 100% 2%) 48%,
+  hsl(225deg 100% 2%) 55%,
+  hsl(223deg 100% 2%) 62%,
+  hsl(222deg 100% 2%) 68%,
+  hsl(220deg 100% 2%) 74%,
+  hsl(219deg 100% 3%) 80%,
+  hsl(218deg 100% 3%) 85%,
+  hsl(217deg 100% 3%) 89%,
+  hsl(215deg 100% 3%) 93%,
+  hsl(214deg 100% 3%) 96%,
+  hsl(213deg 100% 3%) 99%,
+  hsl(212deg 100% 3%) 100%
 );
     width: 100%;
     min-height: 500px;
@@ -196,12 +199,26 @@ main {
 }
 
 .section3sub {
+    display:flex;
     flex-direction: row;
     text-align: start;
+    align-items: center;
 }
-
+.section3mini {
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .section4 {
-
+    background: #00070f;
+    width: 100%;
+    min-height: 500px;
+    top: 0;
+/*    border: 1px solid white;*//*Debug Border*/
+    text-align: center;
+/*     margin: 2rem 6rem; */
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
