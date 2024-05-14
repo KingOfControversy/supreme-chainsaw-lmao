@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source%20Code%20Pro:700|Kode%20Mono:400');
 
+:root {
+    --text: #dfeaf6;
+--background: #00070f;
+--primary: #81bcf3;
+--secondary: #540292;
+--accent: #eca53c;
+--font-scale: 1.333;
+}
+
 body {
   font-family: 'Kode Mono';
   font-weight: 400;
@@ -12,7 +21,17 @@ body {
   height: 100vh;
   width: auto !important;
   margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 
+}
+
+* {
+    padding: 0%;
+}
+
+p {
+    color: var(--text);
 }
 
 * {
@@ -110,25 +129,26 @@ main {
     color: white;
 /*     border: 1px solid white;/*Debug Border*/ */
     width: 100%;
-    padding: 10%;
+    padding-top: 10%;
 
 }
 
 .primary-div {
     display: flex;
     flex-direction: column;
+
 }
 
 .section1 {
-    background: linear-gradient(0deg, rgba(2,0,36,1) 10%, rgba(2,49,86,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(0deg, rgba(2,0,36,1), rgba(2,49,86,1) 35%, rgba(0,212,255,1) 100%);
     width: 100%;
     min-height: 500px;
     top: 0;
-/*     border: 1px solid white; *//*Debug Border*/
+/*     border: 1px solid white; *//*Debug Border */
     text-align: center;
 /*     margin: 2rem 6rem; */
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
@@ -137,16 +157,47 @@ main {
     width: 100%;
     min-height: 500px;
     top: 0;
-/*     border: 1px solid white;/*Debug Border*/ */
+/*    border: 1px solid white;*//*Debug Border*/
     text-align: center;
 /*     margin: 2rem 6rem; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .section3 {
+    background: linear-gradient(
+  180deg,
+  hsl(0deg 0% 0%) 5%,
+  hsl(344deg 0% 3%) 21%,
+  hsl(344deg 0% 6%) 32%,
+  hsl(344deg 0% 8%) 40%,
+  hsl(344deg 0% 10%) 48%,
+  hsl(344deg 0% 12%) 55%,
+  hsl(344deg 0% 14%) 62%,
+  hsl(344deg 0% 16%) 68%,
+  hsl(344deg 0% 18%) 74%,
+  hsl(344deg 0% 20%) 80%,
+  hsl(344deg 0% 22%) 85%,
+  hsl(344deg 0% 24%) 89%,
+  hsl(344deg 0% 26%) 93%,
+  hsl(344deg 0% 28%) 96%,
+  hsl(344deg 0% 30%) 99%,
+  hsl(0deg 0% 32%) 100%
+);
+    width: 100%;
+    min-height: 500px;
+    top: 0;
+/*    border: 1px solid white;*//*Debug Border*/
+    text-align: center;
+/*     margin: 2rem 6rem; */
+    display: flex;
+    flex-direction: column;
+}
 
+.section3sub {
+    flex-direction: row;
+    text-align: start;
 }
 
 .section4 {
@@ -174,11 +225,26 @@ html {
 }
 
 .rows {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .--text {
-    color: var(--text)
+    color: var(--text);
+}
+
+.FancyText {
+    font-family: 'Neon Rave';
+    background: linear-gradient(90deg, rgba(255,113,206) 0%, rgb(1,205,254) 100%);
+    background-clip: text;
+    color: transparent;
+    padding: 0%;
+    margin-top: 0px;
+}
+
+.fancytextcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
 }
 
 .--background {
@@ -197,15 +263,29 @@ html {
     color: var(--accent)
 }
 
-:root {
-    --text: #dfeaf6;
---background: #00070f;
---primary: #81bcf3;
---secondary: #540292;
---accent: #eca53c;
---font-scale: 1.333;
-}
 
 .roundedimage {
     border-radius: 10px;
+}
+
+
+@font-face {
+    font-family: 'Neon Rave';
+    src: url('./Assets/NeonRave.woff2') format('woff2'),
+        url('./Assets/NeonRave.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.section2img {
+    transform: scale(75%);
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.section3txt {
+    background: linear-gradient(90deg, rgba(255,113,206) 0%, rgb(1,205,254) 100%);
+    background-clip: text;
+    color: transparent;
 }
