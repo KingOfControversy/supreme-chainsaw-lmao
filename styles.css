@@ -7,6 +7,7 @@
 --secondary: #540292;
 --accent: #eca53c;
 --font-scale: 1.333;
+--extra: #000a17;
 }
 nav {
     z-index: 12;
@@ -67,6 +68,7 @@ small {font-size: 0.707rem; /* 11.36px */}
     padding: 0;
     overflow: hidden;
     background-color: var(--background);
+/*     filter: blur(3px) */
     border-radius: 0px 0px 10px 10px;
 /*     border: 2px solid transparent; */
 /*     border-image: linear-gradient(to bottom right, #81bcf3, #540292); */
@@ -221,6 +223,52 @@ main {
     flex-direction: column;
 }
 
+footer {
+    background: var(--background);
+    width: 100%;
+    min-height: 0px;
+    top: 0;
+/*    border: 1px solid white;*//*Debug Border*/
+    text-align: center;
+/*     margin: 2rem 6rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footerpages {
+    display: flex;
+    min-height: 0px;
+}
+
+.footersvgscale {
+    align-self: end;
+    width: 3%;
+    height: auto;
+}
+
+.footerC {
+    display: flex;
+    min-height: 5px;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.date {
+    color: var(--text);
+    margin-left: auto;
+    margin-right: 3%;
+}
+
+.glink {
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
 nav {
     position: fixed;
     left: 2%;
@@ -283,6 +331,10 @@ html {
 
 .roundedimage {
     border-radius: 10px;
+}
+
+.--extra {
+    color: var(--extra)
 }
 
 
