@@ -536,3 +536,24 @@ background: radial-gradient(circle, var(--primary) 10%, transparent 11%);
     width: 200px;
     height: 200px;
 }
+
+
+.backtomain {
+  min-width: 130px;
+  height: 40px;
+  color: var(--primary);
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #495057;
+  background: #495057;
+}
+.backtomain:hover {
+  background: transparent;
+  color: var(--accent)
+}
+}
