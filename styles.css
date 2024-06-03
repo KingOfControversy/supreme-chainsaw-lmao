@@ -9,9 +9,7 @@
 --font-scale: 1.333;
 --extra: #000a17;
 }
-nav {
-    z-index: 12;
-}
+
 body {
   font-family: 'Kode Mono';
   font-weight: 400;
@@ -27,6 +25,13 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 
+}
+
+.navbar {
+    position: fixed;
+    left: 2%;
+    right: 2%;
+    top: 0;
 }
 
 * {
@@ -269,11 +274,6 @@ a {
     text-decoration: none;
 }
 
-nav {
-    position: fixed;
-    left: 2%;
-    right: 2%;
-}
 
 select, textarea, input, button {
   font: inherit;
