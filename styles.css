@@ -165,7 +165,7 @@ main {
 .section2 {
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(0, 0, 0) 100%);
     width: 100%;
-    min-height: 500px;
+/*     min-height: 500px; */
     top: 0;
 /*    border: 1px solid white;*//*Debug Border*/
     text-align: center;
@@ -173,6 +173,21 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.section2brdr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2img {
+    height: auto;
+    max-width: 45vh;
+    min-width: 35%;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 10%;
 }
 
 .section3 {
@@ -256,7 +271,6 @@ footer {
     min-height: 5px;
     padding: 0%;
     margin: 0%;
-    text-decoration: none;
     flex-direction: row;
 }
 
@@ -264,10 +278,12 @@ footer {
     color: var(--text);
     margin-left: auto;
     margin-right: 3%;
+    text-decoration: none;
 }
 
 .glink {
     margin-right: auto;
+    text-decoration: underline white;
 }
 
 a {
@@ -347,15 +363,11 @@ html {
     font-display: swap;
 }
 
-.section2img {
-    transform: scale(75%);
-    border-radius: 10px;
-    border: 3px solid black;
-}
 
 .Ad {
-    width: 50%;
+    width: 15vh;
     height: auto;
+    min-width: 50%;
 }
 
 .Adimg {
