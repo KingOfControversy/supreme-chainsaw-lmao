@@ -5,11 +5,26 @@
     <title>Landing</title>
     <meta name="description" content="Hey, I'm King of Controversy, Welcome to my main website!" />
     <meta property="og:image" content="./Assets/Webpage Pic.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'; this.onload=null;">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="twitter:card" content="summary_large_image">
-  </head>
-<!--  <header> -->
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Source%20Code%20Pro:700|Kode%20Mono:400');:root{--text: #dfeaf6;--background: #00070f;--primary: #81bcf3;--secondary: #540292;--accent: #eca53c;--font-scale: 1.333;--extra: #000a17}body{font-family:'Kode Mono';font-weight:400;background:#00070f;align-items:center;overflow-x:hidden;position:relative;height:100vh;width:auto!important;margin-top:0px;margin-left:0px;margin-right:0px}*{padding:0%}p{color:var(--text)}*{box-sizing:border-box;scroll-padding-top:3em}h1{font-family:'Source Code Pro';font-weight:700;color:var(--text)}html{font-size:100%}h1{font-size:5.652rem}.Bigtitle{font-size:50px;color:white;*/
+    width: 100%;padding-top:10%}.primary-div{display:flex;flex-direction:column}.section1{background:linear-gradient(0deg,rgba(2,0,36,1),rgba(2,49,86,1) 35%,var(--primary) 100%);width:100%;min-height:500px;top:0;text-align:center;flex-direction:row;justify-content:center}.section2{background:linear-gradient(180deg,rgba(2,0,36,1) 0%,rgb(0,0,0) 100%);width:100%;top:0;text-align:center;display:flex;flex-direction:column;justify-content:space-around}.section2brdr{display:flex;flex-direction:column;align-items:center}.section2img{height:auto;max-width:45vh;min-width:35%;border-radius:10px;border:3px solid black;margin-top:10%}html{font-size:100%}.rows{flex-direction:row}.FancyText{font-family:'Neon Rave';background:linear-gradient(90deg,rgba(255,113,206) 0%,rgb(1,205,254) 100%);background-clip:text;color:transparent;padding:0%;margin-top:0px}.fancytextcontainer{display:flex;justify-content:center;padding:0%}.roundedimage{border-radius:10px}@font-face{font-family:'Neon Rave';src:url('./Assets/NeonRave.woff2') format('woff2'),url('./Assets/NeonRave.woff') format('woff');font-weight:normal;font-style:normal;font-display:swap}
+    </style>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/Favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/Favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/Favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/Favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/Favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/Favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    </head>
+    <header>
   <!-- This is a WIP of a possible new navbar, IGNORE FOR NOW!-->
 <!--  <ul class="scorner" style="display:flex; justify-content: center;">
           <li class="navlink"><a href="">King of Controversy</a></li>
@@ -18,7 +33,7 @@
           <li class="navlink" style="float:right"><a href="">Placeholder</a></li>
           </ul>-->
 <!-- ###END OF COMMENT### -->
-    <!-- <div class="navbar">
+    <div class="navbar">
     <div class="gradcontain">
       <div class="gradcontent">
         <ul class="navmain" class="scorner">
@@ -30,7 +45,7 @@
         </div>
       </div>
       </div>
-     </header> -->
+     </header>
   <body>
   <div class="primary-div">
     <div class="section1">
